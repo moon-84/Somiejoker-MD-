@@ -3,7 +3,7 @@ require('dotenv').config();
 const settings = {
   packname: 'Moon Bot',
   author: '‎',
-  botName: "Somiejoker Bot",
+  botName: "Moon Bot",
   botOwner: 'MOON', // Your name
   ownerNumber: '254745541538', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',

@@ -1,5 +1,5 @@
 /**
- * Somiejoker Bot - A WhatsApp Bot
+ * Moon Bot - A WhatsApp Bot
  * Copyright (c) 2024 Marto
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -74,7 +74,7 @@ setInterval(() => {
 let phoneNumber = "254794745885"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "SOMIEJOKER BOT"
+global.botname = "MOON BOT"
 global.themeemoji = "•"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -170,7 +170,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterName: 'MoonBot MD',
                                 serverMessageId: -1
                             }
                         }
@@ -279,7 +279,7 @@ async function startXeonBotInc() {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363161513685998@newsletter',
-                            newsletterName: 'SomiejokerBot MD',
+                            newsletterName: 'MoonBot MD',
                             serverMessageId: -1
                         }
                     }
